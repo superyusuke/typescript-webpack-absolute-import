@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"],
+      "others/*": ["../others/*"]
+    },
+    "module": "es6",
+    "importHelpers": true,
+    "typeRoots": ["types", "node_modules/@types"],
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}
