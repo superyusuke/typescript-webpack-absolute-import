@@ -5,7 +5,7 @@ var app = express();
 var _a = process.env.PORT, PORT = _a === void 0 ? 3000 : _a;
 app.get("/", function (req, res) {
     res.send({
-        message: "hello world" + myMusic + others
+        message: "hello world aaa" + myMusic + others
     });
 });
 app.listen(PORT, function () {
